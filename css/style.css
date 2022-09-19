@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+
+a {
+    padding-left: 10px;
+    font-size: 22px;
+    color: white;
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.section-content-1 {
+    height: 700px;
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*19b0cdr*_ga*MTE4NjE2MTk4OC4xNjQ3MjkyODIy*_ga_3LRZM6TM9L*MTY2MzQ0MDAyNi4xNy4xLjE2NjM0NDA0MTIuNDQuMC4w");
+}
+
+.text {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+h4 {
+    color: white;
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 2%;
+    margin-bottom: 0;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.img-2 {
+    height: 200px;
+    width: 300px;
+}
+
+.text-1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.block-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-content {
+    gap: 32px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1000px;
+}
+
+
+.section-3 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content-3 {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*19b0cdr*_ga*MTE4NjE2MTk4OC4xNjQ3MjkyODIy*_ga_3LRZM6TM9L*MTY2MzQ0MDAyNi4xNy4xLjE2NjM0NDA0MTIuNDQuMC4w");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.title {}
+
+.block-small {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+
+}
+
+.block-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 25px;
+    ;
+}
+
+
+
+
+section {
+    padding-bottom: 90px;
+    margin: 0;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.small-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
